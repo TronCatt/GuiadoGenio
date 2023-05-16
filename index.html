@@ -3,12 +3,21 @@
 <html>
 
 <head>
-<title>O maior genio da humanidade</title>
+<title>Astolfismo</title>
+
+<meta charset="UTF-8">
+<meta name="description" content="Guia do prof Lando beta">
+<meta name="keywords" content="HTML, tutorial, beginners">
+<meta name="author" content="Me">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
 
 </head>
 
-<body>
-    <h1>Clique na img para conhecer o genio</h1>
+<body style="background-color: pink;">
+    <iframe style="border:0" src="ad.html" widht="950" height="250"></iframe>
+
+
+    <h1 style="color: red">Clique na img para conhecer o genio</h1>
 <a href="https://www.youtube.com/watch?v=yR-rmVV5K2s">
    <img src="/Imagens/Astolfo.png" height="300" alt="This is a femboy" title="femboy">
 </a>
@@ -25,43 +34,43 @@
    </video>
 
 
-<p>This is normal text</p>
-<p>This is <b>bold</b> text</p>
-<p>This is <i>italic</i> text</p>
-<p>This is <big>big</big> text</p>
-<p>This is <small>small</small> text</p>
-<p>This is <sub>subscript</sub> text</p>
-<p>This is <sup>superscript</sup> text</p>
-<p>This is <ins>inserted</ins> text</p>
-<p>This is <del>deleted</del> text</p>
-<p>This is <mark>marked</mark> text</p>
+<p style="color:darkgreen">This is normal text</p>
+<p style="color:darkgreen">This is <b>bold</b> text</p>
+<p style="color:darkgreen">This is <i>italic</i> text</p>
+<p style="color:darkgreen">This is <big>big</big> text</p>
+<p style="color:darkgreen">This is <small>small</small> text</p>
+<p style="color:darkgreen">This is <sub>subscript</sub> text</p>
+<p style="color:darkgreen">This is <sup>superscript</sup> text</p>
+<p style="color:darkgreen">This is <ins>inserted</ins> text</p>
+<p style="color:darkgreen">This is <del>deleted</del> text</p>
+<p style="color:darkgreen">This is <mark>marked</mark> text</p>
 
-<h4>Unordered list</h4>
+<h4 style="color: #28f005">Unordered list</h4>
 <ul>
-    <li>pizza dough</li>
-    <li>tomato sauce</li>
-    <li>cheese</li>
-    <li>toppings
-        <ul>
+    <li style="color: #2d2d2d">pizza dough</li>
+    <li style="color: #2d2d2d">tomato sauce</li>
+    <li style="color: #2d2d2d">cheese</li>
+    <li style="color: #2d2d2d">toppings
+        <ul style="color:darkmagenta">
             <li>pepperoni</li>
             <li>onions</li>
         </ul>
     </li>
 </ul>
-<h4>Ordered list</h4>
+<h4 style="color: #28f005">Ordered list</h4>
 <ol>
-    <li>eat breakfast</li>
-    <li>take a shower</li>
-    <li>leave for work</li>
+    <li style="color: #28f005">eat breakfast</li>
+    <li style="color: #28f005">take a shower</li>
+    <li style="color: #28f005">leave for work</li>
 </ol>
-<h4>description list</h4>
+<h4 style="color: pink">description list</h4>
 <dl>
-    <dt>HTML</dt>
-    <dd>This adds structere to a webpage</dd>
-    <dt>CSS</dt>
-    <dd>This adds style to a webpage</dd>
-    <dt>JavaScript</dt>
-    <dd>This adds functionality to a webpage</dd>
+    <dt style="color: darkblue">HTML</dt>
+    <dd style="color: darkblue">This adds structere to a webpage</dd>
+    <dt style="color: darkblue">CSS</dt>
+    <dd style="color: darkblue">This adds style to a webpage</dd>
+    <dt style="color: darkblue">JavaScript</dt>
+    <dd style="color: darkblue">This adds functionality to a webpage</dd>
 </dl>
 
 <h3>Store Hours</h3>
@@ -89,7 +98,111 @@
         
     </tr>
 </table>
- 
+<div style="background-color:#444444">
+<p>
+    <span style="color:red">Professor Lando is based.</span> Most important fembologist of all time.
+</p>
+ <p>
+    Femboys are not gay
+ </p>
+ </div>
+
+     <button onclick="doSomething()" style="background-color: #333333;color: #0f0;border-radius:5px;:">click me</button>
+
+     <p id="test">Hello</p>
+
+     <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+     </script>
+     <form action="action_page.php" method="POST">
+        <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+    </div>
+
+     <br>
+
+    <div>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+    </div>
+
+    <br>
+    <div>
+        <label for="pass">password:</label>
+        <input type="password" id="pass" name="pass" maxlenght="12" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email"placeholder="Spants@gmail.com">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="bdate">birthdate:</label>
+        <input type="date" id="bdate" name="bdate">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="title">title:</label>
+
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr.">
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="Phd." name="title" value="PhD.">
+    </div>
+
+    <br>
+
+    <div>
+    <label for="payment">payment:</label>
+    <select id="payment" name="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+    </select>
+   </div>
+
+   <br>
+
+   <div>
+    <label for="subscribe:">subscribe:</label>
+    <input type="checkbox" id="subscribe" name="subscribe">
+   </div>
+
+   <br>
+   
+    <div>
+        <input type="reset">
+    </div>
+
+    <br>
+
+    <div>
+        <input type="submit">
+    </div>
+
+     </form>
 </body>
 
 </html>
